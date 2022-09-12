@@ -50,13 +50,14 @@ teamwork, tactful, not confrontational (but for justice:)).
 
 **********************
 ## Training and workshops
++ RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
 + GloAcademy course - HTML, CSS, WordPress
 + JS basic ITDVN course 
 + Intensive - MODX Basics
 + Roman Trukhtanov CSS animation course
 + Continuous self-study of frontend-development skills
 + English - offline learning with a tutor
-+ RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
+
 
 **********************
 ## Code
