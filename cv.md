@@ -65,6 +65,12 @@ function multiply(a, b){
  return a * b;
 }
 ```
-This link in my own project: [https://ksankakovsh.github.io/POS/](https://ksankakovsh.github.io/POS/ "pos")
+This links in my own projects:
+
+ [https://ksankakovsh.github.io/POS/](https://ksankakovsh.github.io/POS/ "pos")
+
+ [https://ksankakovsh.github.io/wedding/](https://ksankakovsh.github.io/wedding/ "wedding")
+
+ [https://ksankakovsh.github.io/manao/](https://ksankakovsh.github.io/manao/ "manao")
 
 
