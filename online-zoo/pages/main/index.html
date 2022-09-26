@@ -11,16 +11,16 @@
     
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
     
         <div class="header-row wrap">
             <div class="header-navigation">
-                <a href="" class="header-logo"><picture><source srcset="../../assets/img/logo_footer.webp" type="image/webp"><img src="../../assets/img/logo_footer.png" alt="logo" class="logo"></picture></a>
+                <a href="../main/index.html" class="header-logo"><picture><source srcset="../../assets/img/logo_footer.webp" type="image/webp"><img src="../../assets/img/logo_footer.png" alt="logo" class="logo"></picture></a>
                 <nav class="header-menu">
-                        <a href="" class="header-menu__item active">About</a>
+                        <p class="header-menu__item active">About</p>
                         <a href="" class="header-menu__item">Map</a>
                         <a href="" class="header-menu__item">Zoos</a>
-                        <a href="" class="header-menu__item">Donate</a>
+                        <a href="../donate/index.html" target="_blank" class="header-menu__item">Donate</a>
                         <a href="" class="header-menu__item">Contact us</a>
                         
                 </nav>
@@ -44,8 +44,7 @@
     <section class="wilderness">
     <div class="wrap">
         <div class="wilderness-row">
-            <picture><source srcset="../../assets/img/bamboo-cap.webp" type="image/webp"><img src=
-                ts/img/bamboo-cap.jpg" alt="dzed-baradzed" class="wilderness-man"></picture>
+            <picture><source srcset="../../assets/img/bamboo-cap.webp" type="image/webp"><img src="ts/img/bamboo-cap.jpg" alt="dzed-baradzed" class="wilderness-man"></picture>
             <div class="wilderness_description">
                 <h2 class="wilderness_title">The Backstage of the Wilderness World.</h2>
                 <p class="subtitle">
@@ -213,7 +212,7 @@
         <h2 class="pick_title">Pick and feed a friend</h2>
         <p class="pick_subtitle">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
         <p class="pick_text medium">During a time when the COVID-19 epidemic is touching all of our lives, we’re proud and glad that people around the world find joy in PetStory.</p>
-        <p class="pick_text">Even though the zoo has reopened, we need you now more than ever to help us deal with these problems. Please consider <br>a gift to our <a href="" class="pick_link">Emergency Support Fund</a>.</p>
+        <p class="pick_text">Even though the zoo has reopened, we need you now more than ever to help us deal with these problems. Please consider <br>a gift to our <a href="../donate/index.html" class="pick_link">Emergency Support Fund</a>.</p>
         <h3 class="pick_title-small">
             How it works
         </h3>
@@ -250,9 +249,9 @@
             </figure>
         </div>
        
-            <button class="pick_btn">
+            <a href="../donate/index.html" class="pick_btn">
                 Feed a friend now
-            </button>
+            </a>
         
     </div>
 </section>
@@ -356,8 +355,8 @@
     <footer>
     <div class="wrap">
         <div class="footer_row">
-            <picture><source srcset="../../assets/img/logo_footer.webp" type="image/webp"><img src="../../assets/img/logo_footer.png" alt="logo" class="footer-logo"></picture>
-            <form action="post" action="#" class="footer_form">
+            <a href="#header" ><picture><source srcset="../../assets/img/logo_footer.webp" type="image/webp"><img src="../../assets/img/logo_footer.png" alt="logo" class="footer-logo"></picture></a>
+            <form method="post" action="#" class="footer_form">
                 <h3 class="footer_form-title">Subscribe to our news</h3>
                 <div class="footer_input-body">
                     <input type="email" name="email" placeholder="Enter your email" class="input">
@@ -410,7 +409,7 @@
                 </li>
             </ul>
             <nav class="footer_nav">
-                <a href="" class="footer_nav-item active">About</a>
+                <a href="#header" class="footer_nav-item active">About</a>
                 <a href="" class="footer_nav-item">Map</a>
                 <a href="" class="footer_nav-item">Zoos</a>
                 <a href="" class="footer_nav-item">Contact us</a>

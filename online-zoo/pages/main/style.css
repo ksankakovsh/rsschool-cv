@@ -236,7 +236,7 @@ template {
 }
 
 .header-menu__item,
-.design {
+.design {margin: 0;
   text-decoration: none;
   font-family: "Roboto";
   font-style: normal;
@@ -448,6 +448,7 @@ h1::before {
 }
 
 .card_text {
+  
   position: absolute;
   opacity: 0;
   background: rgba(0, 0, 0, 0.6);
@@ -459,6 +460,7 @@ h1::before {
 }
 
 .card_description-wrap:hover .card_text {
+  
   transform: translateY(-245px);
   opacity: 1;
 }
