@@ -662,6 +662,7 @@ h1::before {
   text-transform: uppercase;
   cursor: pointer;
   border-radius: 25px;
+  text-decoration: none;
 }
 
 .pick_btn:hover {
