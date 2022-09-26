@@ -1,7 +1,7 @@
 @font-face {
   font-family: Roboto;
   font-display: swap;
-  src: url("../../assets/fonts/Roboto-Bold.woff2") format("woff2"), url("../../assets/fonts/Roboto-Bold.woff") format("woff");
+  src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
@@ -9,7 +9,7 @@
 @font-face {
   font-family: Roboto;
   font-display: swap;
-  src: url("../../assets/fonts/Roboto-Medium.woff2") format("woff2"), url("../../assets/fonts/Roboto-Medium.woff") format("woff");
+  src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
@@ -17,7 +17,7 @@
 @font-face {
   font-family: Roboto;
   font-display: swap;
-  src: url("../../assets/fonts/Roboto-Regular.woff2") format("woff2"), url("../../assets/fonts/Roboto-Regular.woff") format("woff");
+  src: url("../fonts/Roboto-Regular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
@@ -25,7 +25,7 @@
 @font-face {
   font-family: Roboto;
   font-display: swap;
-  src: url("../../assets/fonts/Roboto-Light.woff2") format("woff2"), url("../../assets/fonts/Roboto-Light.woff") format("woff");
+  src: url("../fonts/Roboto-Light.woff2") format("woff2"), url("../fonts/Roboto-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
@@ -33,7 +33,7 @@
 @font-face {
   font-family: Roboto;
   font-display: swap;
-  src: url("../../assets/fonts/Roboto-Thin.woff2") format("woff2"), url("../../assets/fonts/Roboto-Thin.woff") format("woff");
+  src: url("../fonts/Roboto-Thin.woff2") format("woff2"), url("../fonts/Roboto-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
 }
@@ -268,7 +268,7 @@ template {
 }
 
 .no-webp .first {
-  background: url(../../assets/img/bg1-lg.jpg) center no-repeat; }
+  background: url(../img/bg1-lg.jpg) center no-repeat; }
 
 .first {
   padding: 86px 0 100px;
@@ -343,7 +343,7 @@ h1::before {
 }
 
 .no-webp .wilderness {
-  background: url(../../assets/img/bg2-lg.jpg) center no-repeat; }
+  background: url(../img/bg2-lg.jpg) center no-repeat; }
 
 .wilderness {
   padding: 139px 0 100px;
@@ -590,7 +590,7 @@ h1::before {
 }
 
 .no-webp .forarrows::before {
-  background: url(../../assets/img/arrow.png) no-repeat; }
+  background: url(../img/arrow.png) no-repeat; }
 
 .forarrows::before {
   content: "";
@@ -603,7 +603,7 @@ h1::before {
 }
 
 .no-webp .forarrows::after {
-  background: url(../../assets/img/arrow.png) no-repeat; }
+  background: url(../img/arrow.png) no-repeat; }
 
 .forarrows::after {
   content: "";
@@ -675,7 +675,7 @@ h1::before {
 }
 
 .no-webp .testimonials {
-  background: url(../../assets/img/bg3-lg.jpg) 100% 126% no-repeat; }
+  background: url(../img/bg3-lg.jpg) 100% 126% no-repeat; }
 
 .testimonials {
   padding: 109px 0 180px;
@@ -823,9 +823,7 @@ footer {
   line-height: 22px;
   color: #FFFFFF;
 }
-.footer_nav-item:hover {
-color: #F9804B;
-}
+
 .footer_form {
   max-width: 367px;
   width: 100%;
@@ -926,13 +924,7 @@ color: #F9804B;
   gap: 12px;
   text-decoration: none;
 }
-.social_item:hover .social_label {
-  color:#4B9200;
-}
-.social_item:hover .shadow {
-  fill:#4B9200;
-  fill-opacity: 1;
-}
+
 .footer_nav {
   max-width: 367px;
   width: 100%;
@@ -946,12 +938,12 @@ color: #F9804B;
   }
 }
 
-.webp .first { background: url(../../assets/img/bg1-lg.webp) center no-repeat; }
+.webp .first { background: url(../img/bg1-lg.webp) center no-repeat; }
 
-.webp .wilderness { background: url(../../assets/img/bg2-lg.webp) center no-repeat; }
+.webp .wilderness { background: url(../img/bg2-lg.webp) center no-repeat; }
 
-.webp .forarrows::before { background: url(../../assets/img/arrow.webp) no-repeat; }
+.webp .forarrows::before { background: url(../img/arrow.webp) no-repeat; }
 
-.webp .forarrows::after { background: url(../../assets/img/arrow.webp) no-repeat; }
+.webp .forarrows::after { background: url(../img/arrow.webp) no-repeat; }
 
-.webp .testimonials { background: url(../../assets/img/bg3-lg.webp) 100% 126% no-repeat; }
+.webp .testimonials { background: url(../img/bg3-lg.webp) 100% 126% no-repeat; }
